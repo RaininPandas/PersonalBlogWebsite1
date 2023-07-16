@@ -1,0 +1,61 @@
+  h1 {
+    color: green;
+}
+
+ul {
+    color: blue;
+    display: flex;
+    list-style: none;
+    
+}
+
+p {
+    color: rgb(222, 22, 22);
+}
+
+footer {
+    color: rgb(45, 144, 164);
+}
+
+.row {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+
+.column {
+    background-color: blue;
+    margin: 5px;
+    height: 80%;
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.firstcard {
+    color: rgb(146, 194, 26);
+    background-color: black;
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+}
+.secondcard {
+    background-color: black;
+    color: yellow;
+}
+
+.thirdcard {
+    background-color: black;
+    color: green;
+}
+
+.fourthcard {
+    background-color: black;
+    color: aqua;
+}
